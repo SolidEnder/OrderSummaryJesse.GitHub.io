@@ -1,0 +1,110 @@
+body {
+	background-image: url("file:///C:/Users/bryan/OneDrive/Documents/Order%20Summary/pattern-background-desktop.svg");
+}
+
+div.summaryContainer {
+	width: 250px;
+	background-color: white;
+	position: absolute;
+	left: 20px;
+	height: 440px;
+	border-radius: 5%;
+}
+
+img.graphic {
+	border-radius: 5% 5% 0 0;
+}
+
+h3.summaryHeader {
+	position: absolute;
+	left: 55px;
+	top: 150px;
+}
+
+p.packageSummary {
+	position: absolute;
+	top: 200px;
+	text-align: center;
+	left: -1px;
+}
+
+img.musicIcon {
+	position: absolute;
+	top: 260px;
+	left: 20px;
+}
+
+div.package {
+	position: absolute;
+	top: 40px;
+	background-color: hsl(223,23%,55%);
+	border-radius: 5%;
+}
+
+p.plan {
+	position: absolute;
+	top: 240px;
+	left: 60px;
+	white-space: nowrap;
+}
+
+p.planPrice {
+	position: absolute;
+	top: 265px;
+	left: 60px;
+}
+
+p.changeOption {
+	position: absolute;
+	top: 255px;
+	left: 160px;
+	text-decoration: underline;
+}
+
+button.pay {
+	position: absolute;
+	top: 360px;
+	left: 15px;
+	background-color: hsl(245, 75%, 52%);
+	border-radius: 10%;
+	height: 40px;
+	width: 220px;
+	-webkit-box-shadow: 0 3px 20px -2px rgba(0, 0, 0, 0.15);
+	box-shadow: 0 3px 20px -2px rgba(0, 0, 0, 0.15);
+}
+
+p.btnTxt {
+	color: white;
+	position: relative;
+	bottom: 5px;
+	width: 220px;
+}
+button.cancel {
+	position: absolute;
+	top: 410px;
+	left: 75px;
+	background-color: white;
+	color: gray;
+	border: none;
+}
+
+@media (min-width: 600px) {
+	div.summaryContainer {
+		position: absolute;
+		left: 460px;
+		top: 80px;
+	}
+	
+	img.graphic {
+		width: 290px;
+	}
+	
+	div.summaryContainer {
+		width: 290px;
+	}
+	
+	button.pay {
+		width: 255px;
+	}
+	
+}
